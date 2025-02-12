@@ -1,35 +1,76 @@
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 header {
-  background-color: red;
-  height: 60px;
+  height: 80px;
   display: flex;
 }
+
+/* 상단 네비게이션 바*/
 .logo {
   width: 15%;
-  height: 60px;
+  height: 100%;
 }
-.blank{
-    width: 40%;
+.blank {
+  width: 40%;
 }
 .nav {
   justify-content: space-between;
   width: 45%;
-  line-height: 60px;
+  line-height: 80px;
   display: flex;
 }
 .title {
   cursor: pointer;
+  margin-right: 5%;
+  font-size: 18px;
 }
-a{
-    text-decoration-line: none;
-    color: black;
+a {
+  text-decoration-line: none;
+  color: black;
 }
-section{
-    height: 800px;
+
+/*section 별 높이*/
+section {
+  width: 100%;
+  height: 800px;
 }
+
+/*section1 내부사진*/
+#section1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*section2 오시는길 & 진료시간*/
+
+/*오시는 길 & 진료시간 텍스트*/
+#section2 > #sub1 {
+  text-align: center; 
+  margin: 20px;
+}
+/*지도 api 삽입 예정*/
+#section2 > #sub2 {
+  height: 75%;
+}
+/*전화상담, 진료시간*/
+#section2 > #sub3 {
+  display: flex;
+  justify-content: space-around;
+}
+/*section3*/
+#section3 {
+  display: flex;
+}
+#section3 > article {
+  width: 50%;
+}
+/*section4*/
+/*section5*/
+/*section6*/
+/*section7*/
 @media (max-width: 1024px) {
 }
 @media (max-width: 960px) {
