@@ -49,30 +49,30 @@
         <div>지도 api 삽입 예정</div>
       </article>
       <article id="sub3">
-        <article id="left">
+        <div id="left">
           <div class="call">
             <div>전화상담</div>
-            <div>031-8042-7528</div>
+            <div onclick="location.href='tel:03180427528'">031-8042-7528</div>
           </div>
-          <div class="rev">
+          <div class="res">
             <div class="naver">
               <div>네이버로고</div>
-              <div>네이버예약</div>
+              <div onclick="window.open('https://m.booking.naver.com/booking/13/bizes/1274045?theme=place&lang=ko&area=pll')">네이버예약</div>
             </div>
             <div class="kakao">
               <div>카카오로고</div>
-              <div>카카오톡 예약</div>
+              <div onclick="window.open('https://pf.kakao.com/_vdxcjn')">카카오톡 예약</div>
             </div>
           </div>
-        </article>
-        <article id="right">
+        </div>
+        <div id="right">
           <div>진료시간</div>
           <div>월 • 수 • 금 09:00 - 18:00</div>
-          <div>화 • 목 09:00 - 20:00 (야간진료)</div>
+          <div>화 • 목 09:00 - 20:00 <span style="color: red;">(야간진료)</span></div>
           <div>토 09:00 - 13:00</div>
           <div>점심시간 13:00 - 14:00</div>
-          <div>공휴일과 매주 일요일은 휴무</div>
-        </article>
+          <div style="color: red;">공휴일과 매주 일요일은 휴무</div>
+        </div>
       </article>
     </section>
     <!-- 의료진 소개 -->
@@ -108,23 +108,23 @@
     </section>
     <nav>
       <div class="nav2">
-        <div class="contents">
-          <img src="./img/insta.jpg">
+        <div class="contents" onclick="window.open('https://m.booking.naver.com/booking/13/bizes/1274045?theme=place&lang=ko&area=pll')">
+          <img src="./img/naver.png">
           <div>네이버예약</div>
         </div>
-        <div class="contents">
+        <div class="contents" onclick="window.open('https://pf.kakao.com/_vdxcjn')">
           <img  >
           <div>카카오톡 예약</div>
         </div>
-        <div class="contents">
+        <div class="contents" onclick="location.href='tel:03180427528'">
           <img>
           <div>전화상담</div>
         </div>
-        <div class="contents">
+        <div class="contents" onclick="window.open('https://www.instagram.com/baegotgeindent/')">
           <img>
           <div>인스타그램</div>
         </div>
-        <div class="contents">
+        <div class="contents" onclick="window.open('https://blog.naver.com/baegotgeindent')">
           <img>
           <div>공식블로그</div>
         </div>
