@@ -126,6 +126,12 @@ section {
   justify-content: space-around;
   margin: 0 3%;
 }
+#section2 > #sub3 > #left > .call > div:first-child,
+#section2 > #sub3 > #right > div:first-child{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 .naver, .kakao{
   display: flex;
 }
