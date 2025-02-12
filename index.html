@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>배곧건치과의원</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
   </head>
   <body>
     <header>
@@ -22,7 +23,21 @@
     </header>
     <!--메인 페이지 -- 내부사진 -->
     <section id="section1">
-      <img src="./img/1.jpg">
+      <div class="Slide"><img src="./img/1.jpg"></div>
+      <div class="Slide"><img src="./img/2.jpg"></div>
+      <div class="Slide"><img src="./img/3.jpg"></div>
+      <div class="Slide"><img src="./img/6.jpg"></div>
+      
+      <div class="cur">
+        <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+        <span class="dot" onclick="move(1)"></span> 
+        <span class="dot" onclick="move(2)"></span> 
+        <span class="dot" onclick="move(3)"></span> 
+        <span class="dot" onclick="move(4)"></span> 
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      
+      
     </section>
     <!--오시는 길 & 진료시간-->
     <section id="section2">
@@ -62,14 +77,22 @@
     </section>
     <!-- 의료진 소개 -->
     <section id="section3">
-        <!--사진-->
-       <article style="background-color: red;">
-
-       </article>
-       <!-- 이력-->
-        <article style="background-color: #fff;">
-
-        </article>
+      <div class="title">Doctor</div>
+      <div class="contents">
+        <div>이지은</div>
+        <div>대표원장</div>
+        <div>前 봉담바로선치과 통합진료원장</div>
+        <div>現 배곧건치과 대표원장</div>
+        <br>
+        <div>• 단국대학교 치과대학 졸업</div>
+        <div>• 대한치과조철학회 정회원</div>
+        <div>• 대한치과이식 임플란트학회 정회원</div>
+        <div>• Non-prep venner 라미네이트 세미나 수료</div>
+        <div>• serafin 투명교정 세미나 수료</div>
+        <div>• JPDA 소아 투명교정 세미나 수료</div>
+        <div>• KATMD 턱관절 보톡스 전문가 과정 수료</div>
+      </div>
+      <div class="name">Lee ji eun</div>
     </section >
     <!--진료과목-->
     <section id="section4" style="background-color: pink;">
@@ -83,7 +106,33 @@
     <!-- 둘러보기 -->
     <section id="section7" style="background-color: gainsboro;">
     </section>
-    <nav></nav>
-    <footer></footer>
+    <nav>
+      <div class="nav2">
+        <div class="contents">
+          <img src="./img/insta.jpg">
+          <div>네이버예약</div>
+        </div>
+        <div class="contents">
+          <img  >
+          <div>카카오톡 예약</div>
+        </div>
+        <div class="contents">
+          <img>
+          <div>전화상담</div>
+        </div>
+        <div class="contents">
+          <img>
+          <div>인스타그램</div>
+        </div>
+        <div class="contents">
+          <img>
+          <div>공식블로그</div>
+        </div>
+      </div>
+    </nav>
+    <footer>
+      <div>배곧건치과의원</div>
+      <div>대표 이지은 | 대표번호 031-8042-7528 | 경기 시흥시 배곧5로 66-7 2층 203호, 204호</div>
+    </footer>
   </body>
 </html>
